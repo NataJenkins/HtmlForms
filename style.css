@@ -46,15 +46,33 @@ padding: 0px 10px;
 color:#0077C5;
 text-decoration: none;
 }
-.maincontent{
+.container{
     display: block;
     margin: 0 auto;
     width: 380px;
     height: 673px;
     border-style: solid;
-    padding: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: white;
 }
+.maincontent{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+#email{
+margin-bottom: 20px;
 
+}
+#submit{
+    margin-top: 20px;
+    height: 44px;
+    background-color: #0077c5;
+    color: white;
+}
 fieldset{
 display: grid;
 justify-content: center;
@@ -63,6 +81,22 @@ justify-content: center;
 .text{
     font-size:14px;
     line-height: 1;
+    text-align: center;
+}
+.TermsAndCond{
+display: grid;
+margin-top: 30px;
+text-align: center;
+font-size: 12px;
+font-style: italic;
+color: #757575;
+}
+.centered_text{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bottom_text{
+    
 }
 .information{
     display: grid;
