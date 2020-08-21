@@ -1,5 +1,3 @@
-npx stylelint "**/*.css";
-npx stylelint "**/*.css" --fix;
 body {
     background: #ECEEF1;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
