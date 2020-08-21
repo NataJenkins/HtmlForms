@@ -1,13 +1,13 @@
+npx stylelint "**/*.css";
+npx stylelint "**/*.css" --fix;
 body {
     background: #ECEEF1;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .wrapper {
     display: block;
     margin: 0 auto;
 }
-
 .logo {
     display: grid;
     justify-items: center;
@@ -31,7 +31,6 @@ span {
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
-
 }
 
 .signIn {
@@ -114,7 +113,7 @@ fieldset {
     margin-right: 50px;
 }
 .bottom_text{
-    margin: 42px -12px -30px -12px;
+    margin: 47px -12px -30px -12px;
     padding: 16px;
     border: 3px thin #c7c7c7;
 }
