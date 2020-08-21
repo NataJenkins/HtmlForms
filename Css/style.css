@@ -45,12 +45,6 @@ footer {
     text-align: center;
 }
 
-.inputheight {
-    height: 30px;
-    border-radius: 2px;
-
-}
-
 .navbar {
     margin: 0px;
     padding: 0px;
@@ -83,31 +77,28 @@ footer {
 .container {
     display: block;
     margin: 0 auto;
-    width: 370px;
-    height: 650px;
-    border: 3px thin #c7c7c7;
+    width: 380px;
+    height: 673px;
+    border-style: solid;
+    padding: 20px;
+    border: 1px solid gray;
     background-color: white;
 }
 
 .maincontent {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: max-content;
     grid-gap: 10px;
     justify-content: center;
-    padding: 10px;
-    font-weight: normal;
-    color: #404040;
-    font-size: 14px;
-    line-height: 25px;
+    padding: 20px;
 }
 
-#callNotes {
-    line-height: 6px;
-    color: #404040;
-    font-size: 10px;
+#email {
+    margin-bottom: 20px;
+
 }
 
-.submit {
+#submit {
     margin-top: 20px;
     height: 44px;
     background-color: #0077c5;
@@ -117,15 +108,13 @@ footer {
 fieldset {
     display: grid;
     justify-content: center;
+
 }
 
 .text {
+    font-size: 14px;
     line-height: 1;
     text-align: center;
-    color: #4C4C4C;
-    font-weight: 200;
-    line-height: 1.1;
-    font-size: 16px;
 }
 
 .TermsAndCond {
@@ -142,36 +131,8 @@ fieldset {
     margin-right: 50px;
 }
 
-.bottom_text {
-    margin: 42px -12px -30px -12px;
-    padding: 16px;
-    border: 3px thin #c7c7c7;
-}
 
 .information {
     display: grid;
     grid-template-columns: auto;
-}
-
-.navfooter {
-    color: #757575;
-    margin-top: 70px;
-    font-size: 12px;
-    text-align: center;
-
-}
-
-.navfooter a {
-    color: #757575;
-    text-decoration: none;
-
-}
-
-.copyright {
-    margin: 0 auto;
-}
-
-.wrapper .bottom_text {
-    background-color: #eceef1;
-
 }
