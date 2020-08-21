@@ -1,13 +1,13 @@
-npx stylelint "**/*.css";
-npx stylelint "**/*.css" --fix;
 body {
     background: #ECEEF1;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .wrapper {
     display: block;
     margin: 0 auto;
 }
+
 .logo {
     display: grid;
     justify-items: center;
@@ -19,11 +19,12 @@ span {
     color: cornflowerblue;
 }
 
-.inputheight{
+.inputheight {
     height: 30px;
     border-radius: 2px;
 
 }
+
 .navbar {
     margin: 0px;
     padding: 0px;
@@ -70,10 +71,11 @@ span {
     font-weight: normal;
     color: #404040;
     font-size: 14px;
-    line-height: 25px; 
+    line-height: 25px;
 }
-#callNotes{
-    line-height: 6px; 
+
+#callNotes {
+    line-height: 6px;
     color: #404040;
     font-size: 10px;
 }
@@ -112,7 +114,8 @@ fieldset {
     margin-left: 50px;
     margin-right: 50px;
 }
-.bottom_text{
+
+.bottom_text {
     margin: 47px -12px -30px -12px;
     padding: 16px;
     border: 3px thin #c7c7c7;
@@ -123,22 +126,26 @@ fieldset {
     grid-template-columns: auto;
 
 }
-.navfooter{
+
+.navfooter {
     color: #757575;
     margin-top: 70px;
     font-size: 12px;
     text-align: center;
 
 }
-.navfooter a{
+
+.navfooter a {
     color: #757575;
     text-decoration: none;
 
 }
-.copyright{
+
+.copyright {
     margin: 0 auto;
 }
-.wrapper .bottom_text{
-background-color: #eceef1;
+
+.wrapper .bottom_text {
+    background-color: #eceef1;
 
 }
