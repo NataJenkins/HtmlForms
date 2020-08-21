@@ -1,5 +1,5 @@
 body {
-    background: #eceef1;
+    background: #ECEEF1;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -20,6 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 li {
@@ -47,6 +48,7 @@ footer {
 .inputheight {
     height: 30px;
     border-radius: 2px;
+
 }
 
 .navbar {
@@ -56,6 +58,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+
 }
 
 .signIn {
@@ -155,11 +158,13 @@ fieldset {
     margin-top: 70px;
     font-size: 12px;
     text-align: center;
+
 }
 
 .navfooter a {
     color: #757575;
     text-decoration: none;
+
 }
 
 .copyright {
@@ -168,4 +173,5 @@ fieldset {
 
 .wrapper .bottom_text {
     background-color: #eceef1;
+
 }
